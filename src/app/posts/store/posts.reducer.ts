@@ -1,7 +1,7 @@
 import { createEntityAdapter, EntityAdapter, EntityState } from "@ngrx/entity";
 import { createReducer, on } from "@ngrx/store";
 import { Post } from "../models/post.model";
-import * as PostsActions from './posts.action'
+import * as PostsActions from './posts.actions'
 
 export const featureKey = 'feature';
 
